@@ -20,10 +20,7 @@ shinyServer(function(input, output) {
   output$resultPlot <- renderPlot({
     selectedCategoryDescription = getCategoryDescription(input$select_category)
     results<-loadResultType(selectedCategoryDescription)
-    
-    #ALL_RESULTS <- read.csv("data/results.txt", sep=";")
-    #CHOOSEN_CATEGORY = subset(ALL_RESULTS, TypeOfResult == selectedCategoryDescription)
-    
+
     # Diagramme
     title = paste("Result Overview for", selectedCategoryDescription)
     drawScatterPlot(results, title)
