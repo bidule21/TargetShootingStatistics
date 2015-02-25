@@ -1,0 +1,242 @@
+Date;Description;Result;TypeOfResult;TypeOfProgramme
+2013-05-11;;384;A10 40;
+2013-05-22;;383;A10 40;
+2013-06-01;;388;A10 40;
+2013-06-12;;395;A10 40;
+2013-05-11;;94;A10 Final;
+2013-05-22;;94;A10 Final;
+2013-06-01;;90;A10 Final;
+2013-06-12;;95;A10 Final;
+2013-05-11;;478;A10 40 Final;
+2013-05-22;;477;A10 40 Final;
+2013-06-01;;478;A10 40 Final;
+2013-06-12;;490;A10 40 Final;
+2013-04-27;;284;A30 S 30;
+2013-04-27;;290;A30 K 30;
+2013-04-27;;574;A30 Match;
+2013-05-01;;274;A30 S 30;
+2013-05-01;;292;A30 K 30;
+2013-05-01;;566;A30 Match;
+2013-05-04;;285;A30 S 30;
+2013-05-04;;288;A30 K 30;
+2013-05-04;;573;A30 Match;
+2013-05-10;;281;A30 S 30;
+2013-05-10;;289;A30 K 30;
+2013-05-10;;570;A30 Match;
+2013-05-10;;87;A30 S Final;
+2013-05-10;;657;A30 Match Final;
+2013-05-31;;287;A30 S 30;
+2013-05-31;;286;A30 K 30;
+2013-05-31;;573;A30 Match;
+2013-05-31;;87;A30 S Final;
+2013-05-31;;660;A30 Match Final;
+2013-06-05;;286;A30 S 30;
+2013-06-15;;273;A30 S 30;
+2013-06-15;;289;A30 K 30;
+2013-06-15;;562;A30 Match;
+2013-06-15;;88;A30 Final;
+2013-06-15;;650;A30 Match Final;
+2013-06-21;;279;A30 S 30;
+2013-06-21;;293;A30 K 30;
+2013-06-21;;572;A30 Match;
+2013-06-29;;286;A30 S 30;
+2013-06-29;;292;A30 K 30;
+2013-06-29;;578;A30 Match;
+2013-06-24;;291;A30 K 30;
+2013-07-07;;280;A30 S 30;
+2013-07-07;;293;A30 K 30;
+2013-07-07;;573;A30 Match;
+2013-07-07;;91;A30 S Final;
+2013-07-07;;664;A30 Match Final;
+2013-08-03;;284;A30 S 30;
+2013-08-03;;287;A30 K 30;
+2013-08-03;;571;A30 Match;
+2013-08-11;;275;A30 S 30;
+2013-08-11;;290;A30 K 30;
+2013-08-11;;565;A30 Match;
+2013-08-11;;90;A30 S Final;
+2013-08-11;;655;A30 Match Final;
+2013-08-24;;277;A30 S 30;
+2013-08-24;;290;A30 K 30;
+2013-08-24;;567;A30 Match;
+2013-08-31;;285;A30 S 30;
+2013-08-31;;293;A30 K 30;
+2013-08-31;;578;A30 Match;
+2013-09-05;;277;A30 S 30;
+2013-09-05;;294;A30 K 30;
+2013-09-05;;571;A30 Match;
+2013-09-05;;88;A30 S Final;
+2013-09-05;;659;A30 Match Final;
+2013-09-14;;276;A30 S 30;
+2013-09-14;;293;A30 K 30;
+2013-09-14;;569;A30 Match;
+2013-09-14;;92;A30 S Final;
+2013-09-14;;661;A30 Match Final;
+2013-09-21;;282;A30 S 30;
+2013-09-21;;296;A30 K 30;
+2013-09-21;;578;A30 Match;
+2013-10-05;;284;A30 S 30;
+2013-10-05;;294;A30 K 30;
+2013-10-05;;578;A30 Match;
+2013-10-05;;94;A30 S Final;
+2013-10-05;;672;A30 Match Final;
+2014-03-26;;391;A10 40;
+2014-03-26;;96;A10 Final;
+2014-03-26;;487;A10 40 Final;
+2014-03-29;;387;A10 40;
+2014-03-29;;91;A10 Final;
+2014-03-29;;478;A10 40 Final;
+2014-04-26;;389;A10 40;
+2014-06-29;;383;A10 40;
+2014-06-29;;95;A10 Final;
+2014-06-29;;478;A10 40 Final;
+2014-07-05;;389;A10 40;
+2014-07-05;;92;A10 Final;
+2014-07-05;;481;A10 40 Final;
+2014-02-05;;580;A10 60;
+2014-02-05;;91;A10 Final;
+2014-02-05;;671;A10 60 Final;
+2014-05-01;Georg Winzeler Cup;580;A10 60;
+2014-05-07;;288;A30 S 30;
+2014-07-01;;273;A30 S 30;
+2014-07-14;;291;A30 K 30;
+2014-04-06;Was ist das?;94;A30 S Final;
+2014-04-26;;276;A30 S 30;
+2014-04-26;;291;A30 K 30;
+2014-04-26;;567;A30 Match;
+2014-04-26;;93;A30 Final;
+2014-04-26;;660;A30 Match Final;
+2014-05-04;Was ist das?;94;A30 S Final;
+2014-05-01;HZM;276;A30 S 30;
+2014-05-01;HZM;290;A30 K 30;
+2014-05-01;HZM;566;A30 Match;
+2014-05-10;;284;A30 S 30;
+2014-05-10;;281;A30 K 30;
+2014-05-10;;565;A30 Match;
+2014-05-24;;280;A30 S 30;
+2014-05-24;;290;A30 K 30;
+2014-05-24;;570;A30 Match;
+2014-05-31;;281;A30 S 30;
+2014-05-31;;292;A30 K 30;
+2014-05-31;;573;A30 Match;
+2014-06-28;;283;A30 S 30;
+2014-06-28;;286;A30 K 30;
+2014-06-28;;569;A30 Match;
+2014-06-29;;287;A30 S 30;
+2014-06-29;;293;A30 K 30;
+2014-06-29;;580;A30 Match;
+2014-06-29;;94;A30 Final;
+2014-06-29;;674;A30 Match Final;
+2014-07-05;;286;A30 S 30;
+2014-07-05;;292;A30 K 30;
+2014-07-05;;578;A30 Match;
+2014-07-05;;90;A30 Final;
+2014-07-05;;668;A30 Match Final;
+2014-07-12;;286;A30 S 30;
+2014-07-12;;292;A30 K 30;
+2014-07-12;;578;A30 Match;
+2014-07-12;;89;A30 Final;
+2014-07-12;;667;A30 Match Final;
+2013-07-01;MM 1. Runde / Genaues Datum unbekannt;195;A30 K 20;Heimprogramm
+2013-07-02;MM 2. Runde / Genaues Datum unbekannt;191;A30 K 20;Heimprogramm
+2013-07-03;MM 3. Runde / Genaues Datum unbekannt;192;A30 K 20;Heimprogramm
+2013-07-04;MM 4. Runde / Genaues Datum unbekannt;196;A30 K 20;Heimprogramm
+2013-07-05;MM 5. Runde / Genaues Datum unbekannt;195;A30 K 20;Heimprogramm
+2013-07-06;MM 6. Runde / Genaues Datum unbekannt;190;A30 K 20;Heimprogramm
+2013-07-07;MM 7. Runde / Genaues Datum unbekannt;193;A30 K 20;Heimprogramm
+2012-07-01;MM 1. Runde / Genaues Datum unbekannt;195;A30 K 20;Heimprogramm
+2012-07-02;MM 2. Runde / Genaues Datum unbekannt;190;A30 K 20;Heimprogramm
+2012-07-03;MM 3. Runde / Genaues Datum unbekannt;193;A30 K 20;Heimprogramm
+2012-07-04;MM 4. Runde / Genaues Datum unbekannt;192;A30 K 20;Heimprogramm
+2012-07-05;MM 5. Runde / Genaues Datum unbekannt;192;A30 K 20;Heimprogramm
+2012-07-06;MM 6. Runde / Genaues Datum unbekannt;193;A30 K 20;Heimprogramm
+2012-07-07;MM 7. Runde / Genaues Datum unbekannt;190;A30 K 20;Heimprogramm
+2011-07-01;MM 1. Runde / Genaues Datum unbekannt;190;A30 K 20;Heimprogramm
+2011-07-02;MM 2. Runde / Genaues Datum unbekannt;192;A30 K 20;Heimprogramm
+2011-07-03;MM 3. Runde / Genaues Datum unbekannt;186;A30 K 20;Heimprogramm
+2011-07-04;MM 4. Runde / Genaues Datum unbekannt;187;A30 K 20;Heimprogramm
+2011-07-05;MM 5. Runde / Genaues Datum unbekannt;191;A30 K 20;Heimprogramm
+2011-07-06;MM 6. Runde / Genaues Datum unbekannt;191;A30 K 20;Heimprogramm
+2011-07-07;MM 7. Runde / Genaues Datum unbekannt;194;A30 K 20;Heimprogramm
+2014-11-03;MM 1. Runde;195;LG 20;Heimprogramm
+2014-11-18;MM 2. Runde;194;LG 20;Heimprogramm
+2014-12-02;MM 3. Runde (9.9 im letzten Schuss);199;LG 20;Heimprogramm
+2014-12-16;MM 4. Runde;194;LG 20;Heimprogramm
+2014-12-23;MM 5. Runde;197;LG 20;Heimprogramm
+2015-01-20;MM 6. Runde;197;LG 20;Heimprogramm
+2015-01-26;MM 7. Runde;190;LG 20;Heimprogramm
+2013-11-04;MM 1. Runde;198;LG 20;Heimprogramm
+2013-11-18;MM 2. Runde;197;LG 20;Heimprogramm
+2013-12-02;MM 3. Runde;196;LG 20;Heimprogramm
+2013-12-09;MM 4. Runde;196;LG 20;Heimprogramm
+2014-01-13;MM 6. Runde;198;LG 20;Heimprogramm
+2014-01-26;MM 7. Runde;199;LG 20;Heimprogramm
+2012-11-06;MM 1. Runde;193;LG 20;Heimprogramm
+2012-11-21;MM 2. Runde;189;LG 20;Heimprogramm
+2012-12-10;MM 4. Runde;195;LG 20;Heimprogramm
+2012-01-08;MM 5. Runde;196;LG 20;Heimprogramm
+2013-01-12;MM 6. Runde;199;LG 20;Heimprogramm
+2013-01-28;MM 7. Runde;196;LG 20;Heimprogramm
+2014-01-23;GM 3. Runde;395;LG 40;Heimprogramm
+2013-11-26;GM 1. Runde;397;LG 40;Heimprogramm
+2013-12-31;GM 2. Runde;394;LG 40;Heimprogramm
+2014-12-02;GM 1. Runde;395;LG 40;Heimprogramm
+2014-12-30;GM 2. Runde;389;LG 40;Heimprogramm
+2015-01-21;GM 3. Runde;392;LG 40;Heimprogramm
+2012-11-28;GM 1. Runde;388;LG 40;Heimprogramm
+2013-01-15;GM 3. Runde;394;LG 40;Heimprogramm
+2015-02-23;Monatsmeisterschaft Februar;395;LG 40;Heimprogramm
+2015-02-23;Zuger Kantonalmatch (nachgeholt);394;LG 40;Heimprogramm
+
+
+
+
+2012-11-12;MM 1. Runde;194;A10 20;Heimprogramm
+2012-12-03;MM 2. Runde;193;A10 20;Heimprogramm
+2012-12-17;MM 3. Runde;190;A10 20;Heimprogramm
+2013-01-07;MM 4. Runde;195;A10 20;Heimprogramm
+2013-01-28;MM 5. Runde;194;A10 20;Heimprogramm
+2013-11-04;MM 1. Runde;198;A10 20;Heimprogramm
+2016-11-25;MM 2. Runde;190;A10 20;Heimprogramm
+2013-12-16;MM 3. Runde;192;A10 20;Heimprogramm
+2014-01-06;MM 4. Runde;188;A10 20;Heimprogramm
+2014-01-27;MM 5. Runde;194;A10 20;Heimprogramm
+2014-11-10;MM 1. Runde;192;A10 20;Heimprogramm
+2014-12-01;MM 2. Runde;188;A10 20;Heimprogramm
+2014-12-22;MM 3. Runde;194;A10 20;Heimprogramm
+2015-01-12;MM 4. Runde;196;A10 20;Heimprogramm
+2015-02-02;MM 5. Runde;196;A10 20;Heimprogramm
+2015-02-14;SM 2.Rang;582;A10 60;Wettkampf
+2015-02-14;SM 2.Rang;96;A10 Final;Wettkampf
+2015-02-14;SM 2.Rang;678;A10 60 Final;Wettkampf
+2014-02-15;SM 3.Rang;580;A10 60;Wettkampf
+2014-02-15;SM 3.Rang;91;A10 Final;Wettkampf
+2014-02-15;SM 3.Rang;671;A10 60 Final;Wettkampf
+2012-02-18;SM 7.Rang;379;A10 40;Wettkampf
+2012-02-18;SM 7.Rang;91;A10 Final;Wettkampf
+2012-02-18;SM 7.Rang;470;A10 40 Final;Wettkampf
+2015-01-21;Aarauer Schiessen Meisterschaft;392;A10 40;Wettkampf
+2014-01-22;Aarauer Schiessen Meisterschaft;388;A10 40;Wettkampf
+2013-01-23;Aarauer Schiessen Meisterschaft;391;A10 40;Wettkampf
+2012-12-01;Verbandsmeisterschaft;385;A10 40;Wettkampf
+2012-12-01;Verbandsmeisterschaft;93;A10 Final;Wettkampf
+2012-12-01;Verbandsmeisterschaft;478;A10 40 Final;Wettkampf
+2013-10-28;IVC Innsbruck;392;A10 40;Wettkampf
+2014-10-04;IVC Innsbruck;390;A10 40;Wettkampf
+2014-08-09;WM Frankfurt;388;A10 40;Wettkampf
+2014-08-09;WM Frankfurt;94;A10 Final;Wettkampf
+2014-08-09;WM Frankfurt;482;A10 40 Final;Wettkampf
+2012-08-30;WM Wil;379;A10 40;Wettkampf
+2013-09-06;EM Innsbruck;384;A10 40;Wettkampf
+2013-09-06;EM Innsbruck;94;A10 Final;Wettkampf
+2013-09-06;EM Innsbruck;478;A10 40 Final;Wettkampf
+2012-06-24;Q2;381;A10 40;Wettkampf
+2012-06-24;Q2;97;A10 Final;Wettkampf
+2012-06-24;Q2;478;A10 40 Final;Wettkampf
+2012-08-11;Q3;383;A10 40;Wettkampf
+2012-08-11;Q3;91;A10 Final;Wettkampf
+2012-08-11;Q3;474;A10 40 Final;Wettkampf
+
+2014-04-26;Q1;485;A10 40 Final;Wettkampf
+2014-06-28;Q2;478;A10 40 Final;Wettkampf
+2014-07-05;Q3;481;A10 40 Final;Wettkampf
