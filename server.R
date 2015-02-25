@@ -1,4 +1,5 @@
 library(shiny)
+source("result-stats.R")
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
@@ -14,11 +15,14 @@ shinyServer(function(input, output) {
     selectedCategoryDescription = getCategoryDescription(input$select_category)
     
     # Setup data
-    ALL_RESULTS <- read.csv("data/results.txt", sep=";")
-    CHOOSEN_CATEGORY = subset(ALL_RESULTS, TypeOfResult == selectedCategoryDescription)
+    results<-loadResultType(selectedCategoryDescription)
+    
+    #ALL_RESULTS <- read.csv("data/results.txt", sep=";")
+    #CHOOSEN_CATEGORY = subset(ALL_RESULTS, TypeOfResult == selectedCategoryDescription)
     
     # Diagramme
-    plot(CHOOSEN_CATEGORY[,"Result"],xlab="Freq",ylab="Result")
+    title = paste("Result Overview for", selectedCategoryDescription)
+    drawScatterPlot(results, title)
   })
 })
 
@@ -29,7 +33,22 @@ getCategoryDescription <- function(id){
          "1005"="A10 20",
          "1010"="A10 40",
          "1011"="A10 40 Final",
+         "1020"="A10 60",
+         "1021"="A10 60 Final",
+         "500"="A30 S 30",
+         "510"="A30 K 30",
+         "520"="A30 Match",
+         "530"="A30 Final",
+         "531"="A30 Match Final",
+         "100"="LG 10",
+         "101"="LG 10.f",
+         "110"="LG 20",
+         "111"="LG 20.f",
+         "120"="LG 40",
+         "121"="LG 40.f",
+         "130"="LG 60",
+         "131"="LG 60.f",
+         "140"="LG Final",
         {"Unknown Category"}
   )
-
 }
