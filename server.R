@@ -17,12 +17,12 @@ shinyServer(function(input, output) {
     results
   })
   
-  output$resultPlot <- renderPlot({
+  output$scatterplot <- renderPlot({
     selectedCategoryDescription = getCategoryDescription(input$select_category)
     results<-loadResultType(selectedCategoryDescription)
 
     # Diagramme
-    title = paste("Result Overview for", selectedCategoryDescription)
+    title = paste("Scatter Plot for", selectedCategoryDescription)
     drawScatterPlot(results, title)
   })
 })
