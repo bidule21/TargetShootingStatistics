@@ -11,10 +11,14 @@ shinyServer(function(input, output) {
   #     when inputs change
   #  2) Its output type is a plot
   
+  output$summary <- renderTable({
+    selectedCategoryDescription = getCategoryDescription(input$select_category)
+    results<-loadResultType(selectedCategoryDescription)
+    results
+  })
+  
   output$resultPlot <- renderPlot({
     selectedCategoryDescription = getCategoryDescription(input$select_category)
-    
-    # Setup data
     results<-loadResultType(selectedCategoryDescription)
     
     #ALL_RESULTS <- read.csv("data/results.txt", sep=";")
