@@ -14,7 +14,7 @@ shinyServer(function(input, output) {
   output$summary <- renderTable({
     selectedCategoryDescription = getCategoryDescription(input$select_category)
     results<-loadResultType(selectedCategoryDescription)
-    results
+    return(results)
   })
   
   output$scatterplot <- renderPlot({

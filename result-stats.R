@@ -10,10 +10,10 @@ loadResults <- function(){
   download.file("https://dl.dropboxusercontent.com/u/26682142/TargetShootingResults/results.txt",destfile=tempResultFile, method="curl")
   results <- read.csv(tempResultFile, sep=";", colClasses=c("Date","character","numeric","character","character"))
   ordered = results[order(results[,"Date"]),]
-  ordered
+  return(ordered)
 }
 
 loadResultType <- function(typeName){
   results<-loadResults()
-  subset(results, TypeOfResult == typeName)
+  return(subset(results, TypeOfResult == typeName))
 }
