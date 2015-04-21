@@ -12,6 +12,7 @@ shinyUI(fluidPage(
       selectInput("select_category", label = h3("Category"), 
                   choices = list(
                       "A10 Final" = 1000, 
+                      "A10 10" = 1003, 
                       "A10 20" = 1005,        
                       "A10 40" = 1010,
                       "A10 40 Final" = 1011,

@@ -31,6 +31,7 @@ getCategoryDescription <- function(id){
   sId = toString(id)
   switch(sId, 
          "1000"="A10 Final",
+         "1003"="A10 10",
          "1005"="A10 20",
          "1010"="A10 40",
          "1011"="A10 40 Final",
