@@ -15,5 +15,5 @@ loadResults <- function(){
 
 loadResultType <- function(typeName){
   results<-loadResults()
-  return(subset(results, TypeOfResult == typeName))
+  return(subset(results, Category == typeName))
 }
