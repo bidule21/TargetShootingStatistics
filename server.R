@@ -11,7 +11,7 @@ shinyServer(function(input, output) {
   #     when inputs change
   #  2) Its output type is a plot
   
-  output$summary <- renderTable({
+  output$summary <- renderDataTable({
     selectedCategoryDescription = getCategoryDescription(input$select_category)
     results<-loadResultType(selectedCategoryDescription)
     return(results)

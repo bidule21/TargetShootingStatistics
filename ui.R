@@ -41,7 +41,7 @@ shinyUI(fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
       plotOutput("scatterplot"),
-      tableOutput("summary")
+      dataTableOutput("summary")
     )
   )
 ))
