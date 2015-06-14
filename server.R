@@ -1,31 +1,26 @@
 library(shiny)
 source("result-stats.R")
 
-# Define server logic required to draw a histogram
 shinyServer(function(input, output) {
   
-  # Expression that generates a histogram. The expression is
-  # wrapped in a call to renderPlot to indicate that:
-  #
-  #  1) It is "reactive" and therefore should re-execute automatically
-  #     when inputs change
-  #  2) Its output type is a plot
-  
   output$summary <- renderDataTable({
-    selectedCategoryDescription = getCategoryDescription(input$select_category)
-    results<-loadResultType(selectedCategoryDescription)
+    results = getResultsForRequest(input)
     return(results)
   })
   
   output$scatterplot <- renderPlot({
-    selectedCategoryDescription = getCategoryDescription(input$select_category)
-    results<-loadResultType(selectedCategoryDescription)
-
-    # Diagramme
-    title = paste("Scatter Plot for", selectedCategoryDescription)
-    drawScatterPlot(results, title)
+    drawScatterPlot(getResultsForRequest(input), "Trend Analysis")
   })
 })
+
+getResultsForRequest <- function(input){
+  selectedCategory = getCategoryDescription(input$select_category)
+  results = loadResults();
+  
+  if(!is.null(selectedCategory)){
+    results = subset(results,Category==selectedCategory);
+  }
+}
 
 getCategoryDescription <- function(id){
   sId = toString(id)

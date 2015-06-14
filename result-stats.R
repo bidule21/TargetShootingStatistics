@@ -12,8 +12,3 @@ loadResults <- function(){
   ordered = results[order(results[,"Date"]),]
   return(ordered)
 }
-
-loadResultType <- function(typeName){
-  results<-loadResults()
-  return(subset(results, Category == typeName))
-}
