@@ -1,26 +1,43 @@
 library(shiny)
 source("result-stats.R")
 
-shinyServer(function(input, output) {
+shinyServer(function(input, output) {  
+  getResults <- reactive({
+    return (loadResults())
+  })
+  
+  getResultsForRequest <- function(){
+    results = getResults()
+    selectedCategory = getCategoryDescription(input$select_category)
+    return (subset(results,Category==selectedCategory))
+  }
+  
+  output$mean <- renderText({
+    mean=mean(getResultsForRequest()$Result)
+    return(overviewText("Mean",mean))
+  })
+  
+  output$amountOfRecords <- renderText({
+    amount = length(getResultsForRequest()$Result);
+    return(overviewText("# of results",amount))
+  })
   
   output$summary <- renderDataTable({
-    results = getResultsForRequest(input)
+    results = getResultsForRequest()
     return(results)
   })
   
   output$scatterplot <- renderPlot({
-    drawScatterPlot(getResultsForRequest(input), "Trend Analysis")
+    drawScatterPlot(getResultsForRequest(), "Trend Analysis")
   })
 })
 
-getResultsForRequest <- function(input){
-  selectedCategory = getCategoryDescription(input$select_category)
-  results = loadResults();
-  
-  if(!is.null(selectedCategory)){
-    results = subset(results,Category==selectedCategory);
-  }
+overviewText <- function(property,value){
+  htmlProperty = paste(paste("<b>",property),":</b>")
+  return(paste(htmlProperty,value))
 }
+
+
 
 getCategoryDescription <- function(id){
   sId = toString(id)

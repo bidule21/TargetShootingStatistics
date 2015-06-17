@@ -40,7 +40,12 @@ shinyUI(fluidPage(
     
     # Show a plot of the generated distribution
     mainPanel(
+      h1("Overview", align="center"),
+      htmlOutput("amountOfRecords"),
+      htmlOutput("mean"),
+      h1("Plots", align="center"),
       plotOutput("scatterplot"),
+      h1("Data", align="center"),
       dataTableOutput("summary")
     )
   )
