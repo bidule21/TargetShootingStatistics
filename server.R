@@ -80,7 +80,7 @@ getCategoryDescription <- function(id){
          "509"="CB30 K 20",
          "510"="CB30 K 30",
          "520"="CB30 Match",
-         "530"="CB30 Final",
+         "530"="CB30 S Final 10",
          "531"="CB30 Match Final",
          "90"="AR10 S 1",
          "100"="AR10 S 10",
