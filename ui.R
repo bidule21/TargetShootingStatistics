@@ -43,6 +43,8 @@ shinyUI(fluidPage(
       h1("Overview", align="center"),
       htmlOutput("amountOfRecords"),
       htmlOutput("mean"),
+      htmlOutput("best"),
+      htmlOutput("worst"),
       h1("Plots", align="center"),
       plotOutput("scatterplot"),
       h1("Data", align="center"),

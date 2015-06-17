@@ -22,6 +22,16 @@ shinyServer(function(input, output) {
     return(overviewText("# of results",amount))
   })
   
+  output$best <- renderText({
+    max = max(getResultsForRequest()$Result);
+    return(overviewText("Best",max))
+  })
+  
+  output$worst <- renderText({
+    min = min(getResultsForRequest()$Result);
+    return(overviewText("Worst",min))
+  })
+  
   output$summary <- renderDataTable({
     results = getResultsForRequest()
     return(results)
