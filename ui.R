@@ -47,6 +47,7 @@ shinyUI(fluidPage(
       htmlOutput("worst"),
       h1("Plots", align="center"),
       plotOutput("trendPlot"),
+      plotOutput("histogram"),
       h1("Data", align="center"),
       dataTableOutput("summary")
     )

@@ -47,6 +47,12 @@ shinyServer(function(input, output) {
     abline(lm(results$Result~results$Date), lwd=3, col="green")
     title("Trend Analysis")
   })
+  
+  output$histogram <- renderPlot({
+    results = getResultsForRequest()
+    hist(results$Result,main="Histogram",xlab="Result")
+    title("Histogram")
+  })
 })
 
 overviewText <- function(property,value){
