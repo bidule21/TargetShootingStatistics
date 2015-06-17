@@ -37,8 +37,6 @@ overviewText <- function(property,value){
   return(paste(htmlProperty,value))
 }
 
-
-
 getCategoryDescription <- function(id){
   sId = toString(id)
   switch(sId, 
