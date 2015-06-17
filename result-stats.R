@@ -7,7 +7,7 @@ drawScatterPlot <- function(resultFrame, title="Result overview"){
 
 loadResults <- function(){
   tempResultFile <- tempfile()
-  download.file("https://dl.dropboxusercontent.com/u/26682142/TargetShootingResults/results.txt",destfile=tempResultFile, method="curl")
+  download.file("http://vl0w.ddns.net/shooting/results.txt",destfile=tempResultFile, method="curl")
   results <- read.csv(tempResultFile, sep=";", colClasses=c("Date","character","numeric","character","character"))
   ordered = results[order(results[,"Date"]),]
   return(ordered)
