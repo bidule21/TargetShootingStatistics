@@ -27,13 +27,9 @@ shinyUI(fluidPage(
                       "CB30 Final" = 530,
                       "CB30 Match Final" = 531,
                       "AR10 S 10" = 100,
-                      "AR10 S 10.f" = 101,
                       "AR10 S 20" = 110,
-                      "AR10 S 20.f" = 111,
                       "AR10 S 40" = 120,
-                      "AR10 S 40.f" = 121,
                       "AR10 S 60" = 130,
-                      "AR10 S 60.f" = 131,
                       "AR10 S Final" = 140
                       ), selected = 1000)
     ),

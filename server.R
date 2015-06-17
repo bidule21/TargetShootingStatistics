@@ -58,13 +58,9 @@ getCategoryDescription <- function(id){
          "530"="CB30 Final",
          "531"="CB30 Match Final",
          "100"="AR10 S 10",
-         "101"="AR10 S 10.f",
          "110"="AR10 S 20",
-         "111"="AR10 S 20.f",
          "120"="AR10 S 40",
-         "121"="AR10 S 40.f",
          "130"="AR10 S 60",
-         "131"="AR10 S 60.f",
          "140"="AR10 S Final",
         {"Unknown Category"}
   )
