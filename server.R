@@ -1,9 +1,12 @@
 library(shiny)
-source("result-stats.R")
 
 shinyServer(function(input, output) {  
   getResults <- reactive({
-    return (loadResults())
+    tempResultFile <- tempfile()
+    download.file("http://vl0w.ddns.net/shooting/results.txt",destfile=tempResultFile, method="curl")
+    results <- read.csv(tempResultFile, sep=";", colClasses=c("Date","character","numeric","character","character"))
+    ordered = results[order(results[,"Date"]),]
+    return (ordered)
   })
   
   getResultsForRequest <- function(){
@@ -37,8 +40,12 @@ shinyServer(function(input, output) {
     return(results)
   })
   
-  output$scatterplot <- renderPlot({
-    drawScatterPlot(getResultsForRequest(), "Trend Analysis")
+  output$trendPlot <- renderPlot({
+    results = getResultsForRequest()
+    plot(results$Date,results$Result,xlab="Date",ylab="Result")
+    abline(h=mean(results$Result), lwd=4, col="blue")
+    abline(lm(results$Result~results$Date), lwd=3, col="green")
+    title("Trend Analysis")
   })
 })
 
