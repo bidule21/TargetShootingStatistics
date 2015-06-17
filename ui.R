@@ -30,6 +30,7 @@ shinyUI(fluidPage(
                       "CB30 Match" = 520,
                       "CB30 Final" = 530,
                       "CB30 Match Final" = 531,
+                      "AR10 S 1" = 90,
                       "AR10 S 10" = 100,
                       "AR10 S 20" = 110,
                       "AR10 S 40" = 120,
