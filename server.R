@@ -12,7 +12,15 @@ shinyServer(function(input, output) {
   getResultsForRequest <- function(){
     results = getResults()
     selectedCategory = getCategoryDescription(input$select_category)
-    return (subset(results,Category==selectedCategory))
+    results = subset(results,Category==selectedCategory)
+    
+    if(!is.null(input$dates)){
+      dateFrom = as.Date(input$dates[1])
+      dateTo = as.Date(input$dates[2])
+      results = subset(results, Date>=dateFrom & Date<=dateTo)
+    }
+    
+    return (results)
   }
   
   output$mean <- renderText({

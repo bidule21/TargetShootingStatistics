@@ -36,7 +36,9 @@ shinyUI(fluidPage(
                       "AR10 S 40" = 120,
                       "AR10 S 60" = 130,
                       "AR10 S Final" = 140
-                      ), selected = 1000)
+                      ), selected = 1000),
+      
+      dateRangeInput("dates", label = h3("Date"), start="2010-01-01")
     ),
     
     # Show a plot of the generated distribution
