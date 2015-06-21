@@ -43,16 +43,21 @@ shinyUI(fluidPage(
     
     # Show a plot of the generated distribution
     mainPanel(
-      h1("Overview", align="center"),
-      htmlOutput("amountOfRecords"),
-      htmlOutput("mean"),
-      htmlOutput("best"),
-      htmlOutput("worst"),
-      h1("Plots", align="center"),
-      plotOutput("trendPlot"),
-      plotOutput("histogram"),
-      h1("Data", align="center"),
-      dataTableOutput("summary")
+      tabsetPanel(
+        tabPanel("Overview",      
+                 htmlOutput("amountOfRecords"),
+                 htmlOutput("mean"),
+                 htmlOutput("best"),
+                 htmlOutput("worst")
+        ),
+        tabPanel("Plots",
+                 plotOutput("trendPlot"),
+                 plotOutput("histogram")
+        ),
+        tabPanel("Data",
+                 dataTableOutput("summary")
+        )
+      )
     )
   )
 ))
