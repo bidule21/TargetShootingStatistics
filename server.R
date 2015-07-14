@@ -3,7 +3,7 @@ library(shiny)
 shinyServer(function(input, output) {  
   getResults <- reactive({
     tempResultFile <- tempfile()
-    download.file("http://vl0w.ddns.net/shooting/results.txt",destfile=tempResultFile, method="curl")
+    download.file("http://vl0w.duckdns.org/shooting/results.txt",destfile=tempResultFile, method="curl")
     results <- read.csv(tempResultFile, sep=";", colClasses=c("Date","character","numeric","character","character"))
     ordered = results[order(results[,"Date"]),]
     return (ordered)
@@ -23,24 +23,32 @@ shinyServer(function(input, output) {
     return (results)
   }
   
+  output$fromDate <- renderText({
+    return(format(input$dates[1]))
+  })
+  
+  output$toDate <- renderText({
+    return(format(input$dates[2]))
+  })
+  
   output$mean <- renderText({
     mean=mean(getResultsForRequest()$Result)
-    return(overviewText("Mean",mean))
+    return(mean)
   })
   
   output$amountOfRecords <- renderText({
     amount = length(getResultsForRequest()$Result);
-    return(overviewText("# of results",amount))
+    return(amount)
   })
   
   output$best <- renderText({
     max = max(getResultsForRequest()$Result);
-    return(overviewText("Best",max))
+    return(max)
   })
   
   output$worst <- renderText({
     min = min(getResultsForRequest()$Result);
-    return(overviewText("Worst",min))
+    return(min)
   })
   
   output$summary <- renderDataTable({

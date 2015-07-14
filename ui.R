@@ -3,6 +3,8 @@ library(shiny)
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
   
+  includeCSS("www/style.css"),
+  
   # Application title
   titlePanel("Result archive of Jonas Hansen"),
   
@@ -45,10 +47,25 @@ shinyUI(fluidPage(
     mainPanel(
       tabsetPanel(
         tabPanel("Overview",      
-                 htmlOutput("amountOfRecords"),
-                 htmlOutput("mean"),
-                 htmlOutput("best"),
-                 htmlOutput("worst")
+                 div(class="overview",
+                   span("You're seeing your results between the "), 
+                   htmlOutput("fromDate",inline=T),
+                   span("and the"),
+                   htmlOutput("toDate",inline=T)
+                 ),
+                 div(class="overview",
+                   span("You've shot a total of "),
+                   htmlOutput("amountOfRecords",inline=T),
+                   span(" results during this period")
+                 ),
+                 div(class="overview",
+                   span("Your average score is "),
+                   htmlOutput("mean",inline=T),
+                   span("with your best being"),
+                   htmlOutput("best", inline=T),
+                   span("and your worst "),
+                   htmlOutput("worst", inline=T)
+                   )
         ),
         tabPanel("Plots",
                  plotOutput("trendPlot"),
