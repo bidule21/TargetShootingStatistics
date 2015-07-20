@@ -13,7 +13,6 @@ shinyUI(fluidPage(
     sidebarPanel(
       selectInput("select_category", label = h3("Category"), 
                   choices = list(
-                      "CB10 S Final" = 1000, 
                       "CB10 S 1" = 1002, 
                       "CB10 S 10" = 1003, 
                       "CB10 S 20" = 1005,        
@@ -21,6 +20,8 @@ shinyUI(fluidPage(
                       "CB10 S 40 Final" = 1011,
                       "CB10 S 60" = 1020,
                       "CB10 S 60 Final" = 1021,
+                      "CB10 S Final 1" = 1030, 
+                      "CB10 S Final 10" = 1031, 
                       "CB30 S 1" = 485,
                       "CB30 S 10" = 490,
                       "CB30 S 20" = 495,
@@ -30,6 +31,7 @@ shinyUI(fluidPage(
                       "CB30 K 20" = 509,
                       "CB30 K 30" = 510,
                       "CB30 Match" = 520,
+                      "CB30 K Final 10" = 529,
                       "CB30 S Final 10" = 530,
                       "CB30 Match Final" = 531,
                       "AR10 S 1" = 90,
